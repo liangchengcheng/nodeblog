@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  div #alert.alert.danger 这个是一个危险的消息
+
+   var name='lcc is good person'
+   if name ='lcc is good person'
+     p name is lcc is good person
+   else
+     p name is not lcc is good person
+
+     var list=['man','min'];
+     ul
+       each value in list
+         li=value
